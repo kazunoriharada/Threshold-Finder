@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Comparison Tool</title>
+    <style>
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        button {
+            font-size: 30px;
+            margin: 100px 150px;
+            padding: 10px;
+            background-color: #a1a1a1;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #039f1f;
+        }
+        .playButton1 {
+            margin: 50px;
+            background-color: #008CBA;
+            font-size: 120px;
+            padding: 90px 120px;
+        }
+        .playButton2 {
+            margin: 50px;
+            background-color: #ba003e;
+            font-size: 120px;
+            padding: 90px 120px;
+        }
+        #signal_id {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="signal_id",background-color=fff>{{singal}}</div>
+    <div class="container">
+        <h2>Audio Comparison Tool</h2>
+        <audio id="audio1"></audio>
+        <audio id="audio2"></audio>
+        <audio id="cal"></audio>
+        <button class="playButton1" onclick="playAudio('audio1')">A</button>
+        <button class="playButton2" onclick="playAudio('audio2')">B</button>
+        <br><br><br><br>
+        <button id="same" onclick="goToNext(event)">同じ</button>
+        <button id="slightly" onclick="goToNext(event)">やや違う</button>
+        <button id="Diff" onclick="recordDifference()">違う</button>
+        <br><br><br><br><br><br><br><br>
+        <button onclick="playCal('cal')">Cal.</button>
+    </div>
+    <script src="/static/script_{{updown}}.js"></script>
+
+</body>
+</html>
