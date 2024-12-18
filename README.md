@@ -26,3 +26,9 @@ Alpha 1.0
   - There are many redundant parts, but I plan to refactor them in the future.
 
 ### テスト中
+
+### テスト中
+
+## Requirement
+
+- flask
