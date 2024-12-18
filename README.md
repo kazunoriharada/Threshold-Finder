@@ -25,10 +25,6 @@ Alpha 1.0
 - 冗長な箇所も多いため、今後リファクタリングを行う予定です。
   - There are many redundant parts, but I plan to refactor them in the future.
 
-### テスト中
-
-### テスト中
-
 ## Requirement
 
 - flask
