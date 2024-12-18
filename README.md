@@ -24,3 +24,6 @@ Alpha 1.0
   - Currently, it is still in beta, so there may be bugs.
 - 冗長な箇所も多いため、今後リファクタリングを行う予定です。
   - There are many redundant parts, but I plan to refactor them in the future.
+
+## Requierment
+- Flask
